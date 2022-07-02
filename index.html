@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Powerclan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="pics/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+    
+
+    <title>The Generator</title>
+  </head>
+  <body>
+    <nav>
+        <h1><a href="index.html" style="color: white; text-decoration: none;">The Generator</a></h1>
+    </nav>
+        <div class="generate">
+            <h3>Select what you want to generate</h3>
+            <div class="row-generate">  
+                <label><input type="checkbox" id="name-checkbox">Name: &nbsp;&nbsp;&nbsp;<br /><a id="gen-name">Not Selected</a></label>
+            </div>
+            <div class="row-generate">
+                <label><input type="checkbox" id="password-checkbox">Password &nbsp;&nbsp;&nbsp;<input type="number" id="password-get" placeholder="Places" min="1" max="20"><br /><a id="gen-password">Not Selected</a></label>
+                
+            </div>
+            <div class="row-generate">
+                <label><input type="checkbox" id="BirthDate-checkbox">Birth Date: &nbsp;&nbsp;&nbsp;<br /><a id="gen-birthdate">Not Selected</a></label>
+                
+            </div>
+            <div class="row-generate">
+                <label><input type="checkbox" id="city-checkbox">City &nbsp;&nbsp;&nbsp;<br /><a id="gen-city">Not Selected</a></label>
+            </div>
+            <div class="row-generate">
+                <label><input type="checkbox" id="string-checkbox">Random Strings &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Places" min="1" max="20" id="string-get"><br /><a id="gen-string">Not Seleted</a></label>
+                
+            </div>
+            <div class="row-generate">
+                <label><input type="checkbox" id="number-checkbox">Number &nbsp;&nbsp;&nbsp;<input type="number" placeholder="Places" min="1" max="20" id="number-get"><br /><a id="gen-number">Not Selected</a></label>
+                
+            </div>
+            <p>The Number Input is to set how much places or strings you want to generate</p>
+            <button type="submit" id="btn-generate" onclick="generate()">Generate</button>
+            <button type="button" onclick="save_txt()">Get txt file</button>
+        </div>
+  <script src="script.js"></script>
+  </body>
+
+  <script>
+
+  </script>
+
+
+</html>
