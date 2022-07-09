@@ -6,7 +6,21 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Powerclan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript>
+          function loadCssFile(filename, cssID){
+              if (!document.getElementById(cssID)){
+                  var head = document.getElementsByTagName("head");
+                  var link = document.createElement("link");
+                  link.id = "StyleFile";
+                  link.type = "text/css";
+                  link.rel = "stylesheet";
+                  link.href = filename;
+                  head[0].appendChild(link);
+              }
+          }
+          loadCssFile("style.css", "fileID");
+                                               
+    </script>  
     <link rel="icon" type="image/x-icon" href="pics/logo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
