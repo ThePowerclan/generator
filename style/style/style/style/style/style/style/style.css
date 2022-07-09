@@ -1,0 +1,157 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(102, 102, 102);
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    margin-top: -40px;
+}
+
+nav h1{
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+    padding: 0px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.generate{
+    background-color: white;
+    width: 60%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20%;
+    box-shadow: 5px 5px 5px black;
+}
+
+@media(max-width: 744px){
+    .generate{
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0%;
+        box-shadow: 5px 5px 5px black;
+        margin-bottom: 0px;
+    }   
+}
+
+.generate h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.gen-number{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.generate p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.column-gen{
+    display: inline-block;
+}
+
+.row-generate{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.generate .row-generate label{
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;   
+    padding-left: 20px;
+}
+
+.generate .row-generate label a{
+    padding-left: 20px;
+}
+
+.generate .row-generate label input{
+    margin-right: 10px;
+}
+
+.generate button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    padding: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+
+.generate button:hover{
+    background-color: rgb(172, 172, 172);
+
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+.row-generate .copybtn{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 0px;
+    margin-left: 10px;
+    background-color: green;
+}
+
+/* Result Page */
+.results{
+    width: 60%;
+    background-color: white;
+    margin: 40px;
+    margin-left: 20%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.results h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.results h4{
+    padding-left: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.results p{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
